@@ -1,2 +1,8 @@
-name: 'Milosh Release Custom Action'
-description: 'Testing Release Feature'
+name: 'Very Simple Milosh Hello World 123'
+description: 'Prints hello world'
+
+runs:
+  using: "composite"
+  steps:
+    - run: echo Hello world!
+      shell: bash
